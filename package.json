@@ -1,0 +1,37 @@
+{
+  "name": "rill-tusk",
+  "version": "0.1.0",
+  "description": "Tusk views for Rill.",
+  "author": "Dylan Piercey <pierceydylan@gmail.com>",
+  "main": "server/index.js",
+  "browser": "client/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DylanPiercey/rill-tusk"
+  },
+  "keywords": [
+    "universal",
+    "isomorphic",
+    "react",
+    "tusk",
+    "render",
+    "rill"
+  ],
+  "peerDependencies": {
+    "tusk": "0.x"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.2.0",
+    "jsdom": "^7.2.0",
+    "mocha": "^2.3.4",
+    "mocha-jsdom": "^1.0.0",
+    "rill": "^0.2.11",
+    "supertest": "^1.1.0",
+    "tusk": "^0.8.1"
+  },
+  "dependencies": {
+    "statuses": "^1.2.1"
+  }
+}
